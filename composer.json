@@ -45,7 +45,7 @@
       "public/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "public/app/themes/{$name}/": ["type:wordpress-theme"]
     },
-    "wordpress-install-dir": "web/wp"
+    "wordpress-install-dir": "public/wp"
   },
   "scripts": {
     "test": [

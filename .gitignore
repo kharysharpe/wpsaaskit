@@ -5,6 +5,9 @@ public/app/mu-plugins/*/
 public/app/upgrade
 public/app/uploads/*
 !public/app/uploads/.gitkeep
+!public/app/plugins/webapp/*
+public/app/plugins/webapp/vendor
+
 
 # WordPress
 public/wp
