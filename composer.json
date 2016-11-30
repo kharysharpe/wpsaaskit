@@ -1,27 +1,21 @@
 {
-  "name": "roots/bedrock",
+  "name": "kharysharpe/wpsaaskit",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
-  "homepage": "https://roots.io/bedrock/",
+  "description": "WordPress SaaS Kit",
+  "homepage": "https://github.com/kharysharpe/wpsaaskit/",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+      "name": "Khary Sharpe",
+      "email": "@gmail.com",
+      "homepage": "https://github.com/kharysharpe"
     }
   ],
   "keywords": [
-    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
+    "saas", "toolkit", "wordpress", "stack", "composer", "vagrant", "wp"
   ],
   "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
+    "issues": "https://github.com/kharysharpe/wpsaaskit/issues"
   },
   "config": {
     "preferred-install": "dist"
@@ -38,16 +32,18 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.6.1",
     "oscarotero/env": "^1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "^1.0",
+    "wpackagist-plugin/tailor": "^1.7",
+    "wpackagist-plugin/tailor-advanced": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "public/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "public/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "public/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": "web/wp"
   },
