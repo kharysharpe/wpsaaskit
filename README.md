@@ -108,7 +108,8 @@ TODO
 
 ## TODO
 
+* Find a Team Management (sub accounts) plugin.
 * Enforce PHP 7
-* Look at using AdminLTE
-* Write CRUD
+* Look at using AdminLTE for WebApp
+* Write CRUD for WebApp
 
