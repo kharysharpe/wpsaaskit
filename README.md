@@ -2,7 +2,7 @@
 
 WP SaaS Kit is built upon Bedrock. Designed to take care of the essential pieces of running a SaaS business.
 
-## Requirements
+## Use Cases
 
 * Marketing Site Management
 * Registration
