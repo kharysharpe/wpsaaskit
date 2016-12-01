@@ -10,6 +10,13 @@ WP SaaS Kit is built upon Bedrock. Designed to take care of the essential pieces
 * Subscription Management
 * Access Control
 
+## Wordpress Plugins
+
+* Tailor Page Builder
+* Easy Pricing Pages
+* Simple Membership
+* User Role Editor
+
 
 ## Features
 
@@ -84,6 +91,6 @@ TODO
 ## TODO
 
 * Enforce PHP 7
-* Look at using AdminLite
+* Look at using AdminLTE
 * Write CRUD
 
