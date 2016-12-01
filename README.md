@@ -1,10 +1,15 @@
-# [Bedrock](https://roots.io/bedrock/)
-[![Packagist](https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square)](https://packagist.org/packages/roots/bedrock)
-[![Build Status](https://img.shields.io/travis/roots/bedrock.svg?style=flat-square)](https://travis-ci.org/roots/bedrock)
+# Experimental 
 
-Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
+WP SaaS Kit is built upon Bedrock. Designed to take care of the essential pieces of running a SaaS business.
 
-Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](http://12factor.net/) methodology including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
+## Requirements
+
+* Marketing Site Management
+* Registration
+* User Management
+* Subscription Management
+* Access Control
+
 
 ## Features
 
@@ -21,11 +26,10 @@ Use [Trellis](https://github.com/roots/trellis) for additional features:
 * Easy server provisioning with [Ansible](http://www.ansible.com/) (Ubuntu 14.04, PHP 7, MariaDB)
 * One-command deploys
 
-See a complete working example in the [roots-example-project.com repo](https://github.com/roots/roots-example-project.com).
 
-## Requirements
+## System Requirements
 
-* PHP >= 5.6
+* PHP >= 7.0
 * Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
 ## Installation
@@ -71,21 +75,15 @@ Any other deployment method can be used as well with one requirement:
 
 ## Documentation
 
-Bedrock documentation is available at [https://roots.io/bedrock/docs/](https://roots.io/bedrock/docs/).
+TODO
 
 ## Contributing
 
-Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/roots/guidelines/blob/master/CONTRIBUTING.md) to help you get started.
+TODO
 
-## Community
+## TODO
 
-Keep track of development and community news.
+* Enforce PHP 7
+* Look at using AdminLite
+* Write CRUD
 
-* Participate on the [Roots Discourse](https://discourse.roots.io/)
-* Follow [@rootswp on Twitter](https://twitter.com/rootswp)
-* Read and subscribe to the [Roots Blog](https://roots.io/blog/)
-* Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
-* Listen to the [Roots Radio podcast](https://roots.io/podcast/)
-
-[roots-wp-salt]:https://roots.io/salts.html
-[wp-cli-dotenv]:https://github.com/aaemnnosttv/wp-cli-dotenv-command
