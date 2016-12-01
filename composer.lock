@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e2fe55f00c96c9fe7b4c5de790ba9f53",
-    "content-hash": "b433edd2cafe1131383be9112226ed1d",
+    "hash": "ddbc01cc265a6c1dbd564cad4efb0f31",
+    "content-hash": "bd969830d3016344c170a77876760fac",
     "packages": [
         {
             "name": "composer/installers",
@@ -342,6 +342,46 @@
             "time": "2016-09-01 10:05:43"
         },
         {
+            "name": "wpackagist-plugin/simple-membership",
+            "version": "3.3.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-membership/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-membership.zip",
+                "reference": "trunk",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-membership/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-membership-after-login-redirection",
+            "version": "v1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-membership-after-login-redirection/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-membership-after-login-redirection.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-membership-after-login-redirection/"
+        },
+        {
             "name": "wpackagist-plugin/tailor",
             "version": "1.7.6",
             "source": {
@@ -372,7 +412,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/tailor-advanced.1.0.0.zip",
-                "reference": null,
+                "reference": "tags/1.0.0",
                 "shasum": null
             },
             "require": {
