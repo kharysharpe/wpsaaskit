@@ -39,11 +39,11 @@ Use [Trellis](https://github.com/roots/trellis) for additional features:
 * PHP >= 7.0
 * Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
-## Installation
+## Wordpress Installation
 
-1. Create a new project in a new folder for your project:
+1. Install required files 
 
-  `composer create-project roots/bedrock your-project-folder-name`
+  `composer install`
 
 2. Copy `.env.example` to `.env` and update environment variables:
   * `DB_NAME` - Database name
@@ -63,9 +63,9 @@ Use [Trellis](https://github.com/roots/trellis) for additional features:
 
   Or, you can cut and paste from the [Roots WordPress Salt Generator][roots-wp-salt].
 
-3. Add theme(s) in `web/app/themes` as you would for a normal WordPress site.
+3. Add theme(s) in `public/app/themes` as you would for a normal WordPress site.
 
-4. Set your site vhost document root to `/path/to/site/web/` (`/path/to/site/current/web/` if using deploys)
+4. Set your site vhost document root to `/path/to/site/public/` (`/path/to/site/current/public/` if using deploys)
 
 5. Access WP admin at `http://example.com/wp/wp-admin`
 
@@ -79,6 +79,16 @@ There are two methods to deploy Bedrock sites out of the box:
 Any other deployment method can be used as well with one requirement:
 
 `composer install` must be run as part of the deploy process.
+
+## Web App Installation
+
+1. cd public/app/plugins/webapp
+
+2. composer install
+
+3. Login to wordpress and activate WebApp
+
+
 
 ## Documentation
 
