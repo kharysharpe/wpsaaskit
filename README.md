@@ -94,7 +94,7 @@ Any other deployment method can be used as well with one requirement:
 
 2. composer install
 
-3. Login to wordpress and activate WebApp
+3. Login to wordpress and activate WebApp plugin
 
 
 
