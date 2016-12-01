@@ -16,6 +16,14 @@ WP SaaS Kit is built upon Bedrock. Designed to take care of the essential pieces
 * Easy Pricing Pages
 * Simple Membership
 * User Role Editor
+* Herbert Framework
+
+## WebApp Packages
+
+* Herbert (getherbert/framework)
+* Laravel Blade Template Engine (jenssegers/blade)
+* Valitron (vlucas/valitron)
+* Monlolog (monolog/monolog)
 
 
 ## Features
