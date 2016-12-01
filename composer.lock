@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fcb3c58753dcb8b94e193d43895144f6",
-    "content-hash": "b32727e5aa6ab959c5daa0e91793d986",
+    "hash": "2028b8be9135eaf9e2daa9167690df9f",
+    "content-hash": "f927fbc5e97fbc8fc106bb1edf49123e",
     "packages": [
         {
             "name": "composer/installers",
@@ -342,6 +342,26 @@
             "time": "2016-09-01 10:05:43"
         },
         {
+            "name": "wpackagist-plugin/easy-pricing-tables",
+            "version": "2.3.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/easy-pricing-tables/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/easy-pricing-tables.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/easy-pricing-tables/"
+        },
+        {
             "name": "wpackagist-plugin/simple-membership",
             "version": "3.3.8",
             "source": {
@@ -432,7 +452,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-role-editor.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
