@@ -3,7 +3,10 @@
   "description": "Herbert plugin",
   "license": "MIT",
   "require": {
-    "getherbert/framework": "~0.9"
+    "getherbert/framework": "~0.9",
+    "jenssegers/blade": "~1.0.0",
+    "vlucas/valitron": "~1.2.3",
+    "monolog/monolog": "^1.16@dev"  
   },
   "config": {
     "preferred-install": "dist"
@@ -11,7 +14,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "MyPlugin\\": "app/"
+      "WebApp\\": "app/"
     }
   }
 }

@@ -2,9 +2,9 @@
 
 /**
  * @wordpress-plugin
- * Plugin Name:       MyPlugin
+ * Plugin Name:       WebApp
  * Plugin URI:        http://plugin-name.com/
- * Description:       A plugin.
+ * Description:       Web App.
  * Version:           1.0.0
  * Author:            Author
  * Author URI:        http://author.com/
